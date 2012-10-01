@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tcp_po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-29 13:36+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: sensie <sensei@thecartpress.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:2c,1\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SearchPath-0: thecartpress-productoptions\n"
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:89
+msgid "Options type"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:93
+msgid "Single"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:96
+msgid "Double"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:99
+msgid "List"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:115
+msgid "list of Options"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:128
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:142
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:163
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:55
+msgid "options"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:153
+msgid "Manage options"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:416
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:493
+msgid "Apply to options"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:541
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:542
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:563
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:564
+msgid "units"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:543
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:565
+msgid "no stock"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:600
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:642
+#, php-format
+msgid "%s to %s"
+msgstr ""
+
+#: thecartpress-productoptions/ProductOptionsForTheCartPress.class.php:702
+msgid "<strong>Product Options for TheCartPress</strong> requires TheCartPress plugin is activated."
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:28
+msgctxt "post type general name"
+msgid "Options"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:29
+msgctxt "post type singular name"
+msgid "Options"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:30
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:31
+msgid "Add New Option"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:32
+msgid "Edit Option"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:33
+msgid "New Option"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:34
+msgid "View Option"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:35
+msgid "Search Options"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:36
+msgid "No options found"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:37
+msgid "No options found in Trash"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:41
+msgid "Options"
+msgstr ""
+
+#: thecartpress-productoptions/customposttypes/OptionCustomPostType.class.php:42
+#: thecartpress-productoptions/admin/OptionsList.php:216
+#: thecartpress-productoptions/admin/OptionsList.php:227
+msgid "Option"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:22
+msgid "Option Custom Fields"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:34
+msgid "After saving the title and content, you will be able to edit the specific fields of the option."
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:53
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:56
+#, php-format
+msgid "return to %s"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:59
+msgid "return to Options list"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:61
+msgid "create a new 'sister' option"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:61
+#: thecartpress-productoptions/admin/OptionsList.php:169
+msgid "create new option"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:64
+msgid "create a new second level option"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:64
+#: thecartpress-productoptions/admin/OptionsList.php:261
+msgid "create child option"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:76
+msgid "Price"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:78
+msgid "This price will be added to the price of the parent."
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:81
+msgid "Weight"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:83
+msgid "If value is zero then the weight will be the weight of the parent. This weight will not be added to the weight of the parent anyway."
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:86
+#: thecartpress-productoptions/admin/OptionsList.php:250
+#: thecartpress-productoptions/admin/OptionsList.php:309
+msgid "Order"
+msgstr ""
+
+#: thecartpress-productoptions/metaboxes/OptionCustomFieldsMetabox.class.php:90
+msgid "Sku"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:72
+msgid "Relation created"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:86
+msgid "Relation deleted"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:102
+msgid "Children deleted"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:117
+msgid "Options copied"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:131
+msgid "Options created"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:144
+msgid "Price and Order updated"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:165
+msgid "Options for"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:167
+msgid "return to the product"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:176
+#: thecartpress-productoptions/admin/OptionsPostsList.php:56
+msgid "Category"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:178
+#: thecartpress-productoptions/admin/OptionsPostsList.php:58
+msgid "no one selected"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:184
+msgid "filter"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:186
+msgid "product"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:203
+msgid "Please, filter first a category"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:206
+msgid "copy"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:211
+#: thecartpress-productoptions/admin/OptionsList.php:338
+msgid "modify all"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:215
+#: thecartpress-productoptions/admin/OptionsList.php:226
+msgid "Thumbnail"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:217
+#: thecartpress-productoptions/admin/OptionsList.php:228
+msgid "Description"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:218
+#: thecartpress-productoptions/admin/OptionsList.php:229
+msgid "Status"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:219
+#: thecartpress-productoptions/admin/OptionsList.php:230
+msgid "Price and order"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:241
+#: thecartpress-productoptions/admin/OptionsList.php:242
+#: thecartpress-productoptions/admin/OptionsList.php:253
+#: thecartpress-productoptions/admin/OptionsList.php:301
+#: thecartpress-productoptions/admin/OptionsList.php:302
+#: thecartpress-productoptions/admin/OptionsList.php:312
+msgid "edit option"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:256
+#: thecartpress-productoptions/admin/OptionsList.php:315
+msgid "delete option"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:258
+msgid "delete children"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:267
+msgid "copy from"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:282
+msgid "Do you really want to delete this option?"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:283
+#: thecartpress-productoptions/admin/OptionsList.php:292
+#: thecartpress-productoptions/admin/OptionsList.php:322
+msgid "Yes"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:284
+#: thecartpress-productoptions/admin/OptionsList.php:293
+#: thecartpress-productoptions/admin/OptionsList.php:323
+msgid "No, I don't"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:291
+msgid "Do you really want to delete those children?"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:321
+msgid "Do you really want to delete the option?"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsList.php:333
+msgid "The options list is empty"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:35
+msgid "Options Posts Update"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:40
+msgid "Post type"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:47
+msgid "Load taxonomies"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:49
+msgid "Taxonomy"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:55
+msgid "Load categories"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:65
+msgid "Search"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:88
+msgid "No change"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:113
+msgid "Updated"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:115
+#: thecartpress-productoptions/admin/OptionsPostsList.php:155
+msgid "Update"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:120
+#: thecartpress-productoptions/admin/OptionsPostsList.php:127
+msgid "Title"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:121
+#: thecartpress-productoptions/admin/OptionsPostsList.php:128
+msgid "Label"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:140
+msgid "No create options"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:143
+msgid "Copy to all"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:152
+msgid "No products to update"
+msgstr ""
+
+#: thecartpress-productoptions/admin/OptionsPostsList.php:158
+msgid "First, you must perform a search:"
+msgstr ""
+
