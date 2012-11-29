@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tcp_max\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-05 10:50+0100\n"
+"POT-Creation-Date: 2012-11-29 08:20+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: sensei <sensei@thecartpress.com>\n"
 "Language-Team: \n"
@@ -14,53 +14,50 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: thecartpress-sales-limits\n"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:62
-#, fuzzy
+#: thecartpress-sales-limits/SalesLimits.class.php:65
 msgid "<strong>Limits for TheCartPress</strong> requires TheCartPress plugin is activated."
-msgstr "<strong>Vente Limites pour TheCartPress</ strong> nécessite le plugin TheCartPress activé."
+msgstr "<strong>Limites pour TheCartPress</ strong> nécessite le plugin TheCartPress est activé."
 
-#: thecartpress-sales-limits/SalesLimits.class.php:138
+#: thecartpress-sales-limits/SalesLimits.class.php:141
 #, php-format
 msgid "Sorry, orders over %1$s %2$s cannot be accepted"
 msgstr "Désolé, les commandes de plus de %1$s %2$s ne peuvent être assurées."
 
-#: thecartpress-sales-limits/SalesLimits.class.php:144
+#: thecartpress-sales-limits/SalesLimits.class.php:147
 #, php-format
 msgid "Sorry, orders over %1$s cannot be accepted"
 msgstr "Désolé, les commandes de plus de %1$s ne peuvent être assurées."
 
-#: thecartpress-sales-limits/SalesLimits.class.php:152
-#, fuzzy, php-format
+#: thecartpress-sales-limits/SalesLimits.class.php:155
+#, php-format
 msgid "Sorry, orders under %1$s %2$s will be recharged with %3$s"
-msgstr "Désolé, les commandes de moins de %1$s %2$s ne peuvent être assurées."
+msgstr "Désolé, les commandes de moins de %1$s %2$s sera rechargée avec %3$s"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:159
-#, fuzzy, php-format
+#: thecartpress-sales-limits/SalesLimits.class.php:162
+#, php-format
 msgid "Sorry, orders under %1$s will be recharged with %2$s"
-msgstr "Désolé, les commandes de moins de %1$s ne peuvent être assurées."
+msgstr "Désolé, les commandes de moins de %1$s sera rechargée avec %2$s"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:171
+#: thecartpress-sales-limits/SalesLimits.class.php:174
 #, php-format
 msgid "Sorry, orders under %1$s cannot be accepted"
 msgstr "Désolé, les commandes de moins de %1$s ne peuvent être assurées."
 
-#: thecartpress-sales-limits/SalesLimits.class.php:178
+#: thecartpress-sales-limits/SalesLimits.class.php:181
 msgid "See limits notices"
 msgstr "Voir info concernant les limites"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:188
+#: thecartpress-sales-limits/SalesLimits.class.php:191
 msgid "Settings"
 msgstr "Configuration"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:201
-#, fuzzy
+#: thecartpress-sales-limits/SalesLimits.class.php:204
 msgid "Minimum weight fee"
-msgstr "Poids minimal"
+msgstr "Frais de poids minimum"
 
-#: thecartpress-sales-limits/SalesLimits.class.php:209
-#, fuzzy
-msgid "Minimum Price fee"
-msgstr "Prix minimal"
+#: thecartpress-sales-limits/SalesLimits.class.php:212
+msgid "Minimum price fee"
+msgstr "Frais de prix minimum"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:26
 msgid "Limits"
@@ -68,7 +65,6 @@ msgstr "Limites"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:34
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:59
-#, fuzzy
 msgid "Limits Setup"
 msgstr "Configuration des limites"
 
@@ -77,8 +73,8 @@ msgid "Overview"
 msgstr "Vue d'ensemble"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:46
-msgid "You can customize TheCartPress to only accept orders with a minimum or maximum price and weigth."
-msgstr ""
+msgid "You can customize TheCartPress to only accept orders with a minimum or maximum price and weight."
+msgstr "Vous pouvez personnaliser TheCartPress de n'accepter que les commandes avec un prix minimum ou maximum et le poids."
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:50
 msgid "For more information:"
@@ -93,9 +89,8 @@ msgid "<a href=\"http://community.thecartpress.com/\" target=\"_blank\">Support 
 msgstr "<a href=\"http://community.thecartpress.com/\" target=\"_blank\">Forums de support</a>"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:53
-#, fuzzy
 msgid "<a href=\"http://extend.thecartpress.com/\" target=\"_blank\">Extend site</a>"
-msgstr "<a href=\"http://community.thecartpress.com/\" target=\"_blank\">Forums de support</a>"
+msgstr "<a href=\"http://community.thecartpress.com/\" target=\"_blank\">étendre le site</a>"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:62
 msgid "Settings updated"
@@ -108,11 +103,11 @@ msgstr "Prix minimal"
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:85
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:110
 msgid "Small Order Fee"
-msgstr ""
+msgstr "Payant Commander petite"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:89
 msgid "This fee will be applicable if the minimum price is not exceeded. If this value is zero the minimum price must exceed to proceed to order."
-msgstr ""
+msgstr "Cette taxe sera applicable si le prix minimum ne soit pas dépassée. Si cette valeur est égale à zéro le prix minimum doit être supérieur à procéder à la commande."
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:94
 msgid "Maximum price"
@@ -124,12 +119,11 @@ msgstr "Poids minimal"
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:114
 msgid "This fee will be applicable if the minimum weight is not exceeded. If this value is zero the minimum weight must exceed to proceed to order."
-msgstr ""
+msgstr "Cette taxe sera applicable si le poids minimum ne soit pas dépassée. Si cette valeur est zéro, le poids minimum doit être supérieur à procéder à la commande."
 
 #: thecartpress-sales-limits/admin/MAXSettings.class.php:119
-#, fuzzy
 msgid "Maximum Weight"
-msgstr "Poids maximal"
+msgstr "Poids maximum"
 
 #~ msgid "Sales Limits Settings"
 #~ msgstr "Configuration des ventes limites"
