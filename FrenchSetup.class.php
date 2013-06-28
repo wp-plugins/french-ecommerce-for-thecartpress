@@ -3,7 +3,7 @@
 Plugin Name: TheCartPress French Setup
 Plugin URI: http://thecartpress.com
 Description: TheCartPress French Setup
-Version: 1.2
+Version: 1.3
 Author: TheCartPress team
 Author URI: http://thecartpress.com
 License: GPL
@@ -31,26 +31,25 @@ define( 'TCP_FRENCH_FOLDER', dirname( __FILE__ ) . '/languages/' );
 
 class TCPFrenchSetup {
 
-	function __construct() {
+	static function initPlugin() {
 		if ( is_admin() ) {
-			add_action( 'admin_menu', array( &$this, 'admin_menu' ), 99 );
+			add_action( 'admin_menu', array( __CLASS__, 'admin_menu' ), 99 );
 			//add_filter( 'mu_dropdown_languages', array( &$this, 'mu_dropdown_languages' ) , 10, 3 );
 		}
-		add_filter( 'locale', array( &$this, 'locale' ) );
-		add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
-		//add_action( 'tcp_states_loading', array( $this, 'tcp_states_loading' ) );
+		//add_filter( 'locale', array( &$this, 'locale' ) );
+		//add_filter( 'load_textdomain_mofile', array( $this, 'load_textdomain_mofile' ), 10, 2 );
 	}
 
-	function locale( $locale ) {
+	/*function locale( $locale ) {
 		return 'fr_FR';
-	}
+	}*/
 
 	/*function mu_dropdown_languages( $output, $lang_files, $current ) {
-		$out = '<option value="es_ES"' . selected( $current, 'es_ES', false ) . '>Español</option>';
+		$out = '<option value="fr_FR"' . selected( $current, 'fr_FR', false ) . '>Française</option>';
 		return $out . $output;
 	}*/
 
-	function admin_menu() {
+	static function admin_menu() {
 		global $thecartpress;
 		if ( $thecartpress ) {
 			$base = $thecartpress->get_base_tools();
@@ -58,7 +57,7 @@ class TCPFrenchSetup {
 		}
 	}
 
-	function load_textdomain_mofile( $moFile, $domain ) {
+	/*function load_textdomain_mofile( $moFile, $domain ) {
 		if ( 'tcp' == substr( $domain, 0, 3 ) ) {
 			$wplang = get_option( 'WPLANG', get_locale() );
 			if ( strlen( $wplang ) == 0 ) $wplang = get_locale();
@@ -70,8 +69,8 @@ class TCPFrenchSetup {
 			}
 		}
 		return $moFile;
-	}
+	}*/
 }
 
-new TCPFrenchSetup();
+TCPFrenchSetup::initPlugin();
 ?>

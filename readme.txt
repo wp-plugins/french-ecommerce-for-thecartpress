@@ -3,14 +3,14 @@ Contributors: thecartpress
 Donate link: http://thecartpress.com/collaborate-to-grow-and-support-thecartpress/
 Tags: French, ecommerce, e-commerce, shopping cart, cart, store, shop, shopping, ecomerce, products, TheCartPress, CartPress
 Requires at least: 3.1
-Tested up to: 3.4.2
-Stable Tag: 1.2
+Tested up to: 3.5.2
+Stable Tag: 1.3
 
 French setup for TheCartPress, eCommerce Shopping Cart
 
 == Description ==
 
-French setup for TheCartPress adds French language files and a button to configure the stores with French currency, etc.
+French setup for TheCartPress adds a button to configure the stores with French currency, etc.
 
 TheCartPress is the Professional WordPress eCommerce Plugin. Use it as shopping cart, catalog or framework.
 
@@ -47,5 +47,9 @@ This plugin is released under a GPL license.
 
 
 == Changelog ==
+= 1.3 =
+* France as default tax based country
+* Removed language support, only locale settings
+
 = 1.2 =
-First public version.
+* First public version.

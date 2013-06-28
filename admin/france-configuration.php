@@ -39,11 +39,11 @@ if ( isset( $_REQUEST['tcp-configurar-france'] ) ) :
 	endif; ?>
 	<?php if ( isset( $_REQUEST['tcp_pais_base'] ) ) : ?>
 		<p>Réglez à la base de pays France (FR).</p><?php
-		$settings['country'] = 'ES';
+		$settings['country'] = 'FR';
 	endif; ?>
 	<?php if ( isset( $_REQUEST['tcp_pais_impuestos'] ) ) : ?>
-		<p>País base para impuestos configurado a España (ES).</p><?php
-		$settings['default_tax_country'] = 'ES';
+		<p>Assiette fiscale du pays configuré en France (FR).</p><?php
+		$settings['default_tax_country'] = 'FR';
 	endif; ?>
 </div>
 <?php 
@@ -51,8 +51,13 @@ update_option( 'tcp_settings', $settings );
 global $thecartpress;
 if ( $thecartpress ) $thecartpress->load_settings();
 endif; ?>
+<style>
+div#icon-tcp-fr {
+	background: url('<?php echo plugins_url( '../images/fr_32.png', __FILE__ ); ?>') no-repeat center;
+}
+</style>
 <div class="wrap">
-	<h2>Réglages pour la France</h2>
+	<?php screen_icon( 'tcp-fr' ); ?><h2>Réglages pour la France</h2>
 	<ul class="subsubsub"></ul>
 	<div class="clear"></div>
 	<p>Cette page vous permet de configurer TheCartPress pour le marché français.</p>
